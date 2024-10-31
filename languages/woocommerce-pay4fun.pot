@@ -1,0 +1,555 @@
+# Copyright (C) 2020 Pay4Fun
+# This file is distributed under the same license as the Pay4Fun for Wordpress/WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pay4Fun for Wordpress/WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-pay4fun\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-11-05T13:19:13-03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: woocommerce-pay4fun\n"
+
+#. Plugin Name of the plugin
+msgid "Pay4Fun for Wordpress/WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/woocommerce-pay4fun"
+msgstr ""
+
+#. Description of the plugin
+msgid "Includes Pay4Fun as a payment gateway to WooCommerce and also adds Donation capabilities to Wordpress."
+msgstr ""
+
+#. Author of the plugin
+#: includes/class-wc-pay4fun-gateway.php:29
+#: includes/class-wc-pay4fun-gateway.php:280
+#: includes/class-wp-p4f-settings-page.php:124
+#: includes/class-wp-p4f-settings-page.php:125
+msgid "Pay4Fun"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.p4f.com/"
+msgstr ""
+
+#: helpers/class-pay4fun.php:42
+msgid "API URL not properly set!"
+msgstr ""
+
+#: helpers/class-pay4fun.php:104
+msgid "Amount field is not defined or is not numeric."
+msgstr ""
+
+#: helpers/class-pay4fun.php:109
+msgid "merchantInvoiceId field is not defined or is not valid."
+msgstr ""
+
+#: helpers/class-pay4fun.php:114
+msgid "Currency field is not defined or is not valid ISO4217 code."
+msgstr ""
+
+#: helpers/class-pay4fun.php:119
+msgid "ofUrl field is not defined or is not valid URL."
+msgstr ""
+
+#: helpers/class-pay4fun.php:124
+msgid "notOkUrl field is not defined or is not valid URL."
+msgstr ""
+
+#: helpers/class-pay4fun.php:129
+msgid "confirmationUrl field is not defined or is not valid URL."
+msgstr ""
+
+#: helpers/class-pay4fun.php:136
+msgid "Language field is not valid (en-US/pt-BR/es-ES)."
+msgstr ""
+
+#: helpers/class-pay4fun.php:143
+msgid "merchantLogo field is not defined or is not valid URL."
+msgstr ""
+
+#: helpers/class-pay4fun.php:150
+msgid "p4fAccountEmail field is not a valid e-mail."
+msgstr ""
+
+#: helpers/class-pay4fun.php:157
+msgid "p4fMainId field is not a valid string."
+msgstr ""
+
+#: helpers/class-pay4fun.php:164
+msgid "labelId field is not defined or is not numeric."
+msgstr ""
+
+#: helpers/class-pay4fun.php:171
+msgid "description field is not a valid string or is more than 40 characters."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:30
+msgid "Accept payments by using your Pay4Fun wallet to transfer funds."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:31
+msgid "Proceed to payment"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:257
+msgid "System Status &gt; Logs"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:270
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:272
+msgid "Enable Pay4Fun"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:276
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:278
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:283
+#: includes/class-wp-p4f-settings-page.php:294
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:285
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:286
+msgid "Pay via pay4fun"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:289
+#: includes/class-wp-p4f-settings-page.php:215
+msgid "Merchant ID"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:291
+msgid "You Merchant ID Registered on Pay4Fun"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:296
+msgid "Merchant Secret"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:298
+msgid "You Merchant Secret Registered on Pay4Fun"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:303
+msgid "Merchant Key"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:305
+msgid "You Merchant Key Registered on Pay4Fun"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:310
+#: includes/class-wp-p4f-settings-page.php:262
+msgid "Merchant Logo"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:312
+msgid "Add your Logo into Pay4Fun checkout page."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:317
+msgid "WC Order Prefix"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:319
+msgid "Use a prefix to uniquely identify your order with Pay4fun if using multiple sites."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:321
+msgid "WC_"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:324
+#: includes/class-wp-p4f-settings-page.php:254
+msgid "Language"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:325
+msgid "Select the language to be used in the pay4fun checkout page."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:336
+msgid "Complete Order on Payment?"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:338
+msgid "Change order status to \"Completed\" once pay4fun transfer has been confirmed, otherwise it will change order status to \"Processing\" (Only applicable for virtual/downloadable products)"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:342
+#: includes/class-wp-p4f-settings-page.php:310
+msgid "Sandbox Mode?"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:344
+msgid "Run your payments in sandbox mode for testing purposes only."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:348
+msgid "Debug Log"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:350
+msgid "Enable logging"
+msgstr ""
+
+#. translators: %s: log page link
+#: includes/class-wc-pay4fun-gateway.php:353
+msgid "Log pay4fun events, such as API requests, inside %s"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:376
+msgid "WooCommerce Merchant cannot be the same as the Donation Merchant."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:453
+msgid "We are sorry, there was an error while processing your order with this payment method. Please try again, or if possible use another method. Contact our support if you need assistance."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:574
+msgid "pay4fun: Payment under review."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:585
+#: includes/class-wc-pay4fun-gateway.php:588
+msgid "pay4fun: Payment approved."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:596
+msgid "pay4fun: Payment completed and credited to your account."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:600
+msgid "pay4fun: Payment came into dispute."
+msgstr ""
+
+#. translators: %s: order number
+#: includes/class-wc-pay4fun-gateway.php:603
+msgid "Payment for order %s came into dispute"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:604
+msgid "Payment in dispute"
+msgstr ""
+
+#. translators: %s: order number
+#: includes/class-wc-pay4fun-gateway.php:606
+msgid "Order %s has been marked as on-hold, because the payment came into dispute in pay4fun."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:611
+msgid "pay4fun: Payment refunded."
+msgstr ""
+
+#. translators: %s: order number
+#: includes/class-wc-pay4fun-gateway.php:614
+msgid "Payment for order %s refunded"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:615
+msgid "Payment refunded"
+msgstr ""
+
+#. translators: %s: order number
+#: includes/class-wc-pay4fun-gateway.php:617
+msgid "Order %s has been marked as refunded by pay4fun."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:626
+msgid "pay4fun: Payment canceled."
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:662
+msgid "Payer email"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:665
+msgid "Payer name"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:670
+msgid "Payment type"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:675
+msgid "Payment method"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:680
+msgid "Installments"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:685
+msgid "Payment URL"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:688
+msgid "Intermediation Rate"
+msgstr ""
+
+#: includes/class-wc-pay4fun-gateway.php:691
+msgid "Intermediation Fee"
+msgstr ""
+
+#: includes/class-wc-pay4fun.php:54
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wp-p4f-donations-page.php:66
+#: includes/class-wp-p4f-donations-page.php:67
+msgid "Pay4Fun Donations"
+msgstr ""
+
+#: includes/class-wp-p4f-donations-page.php:84
+msgid "This will delete all donations registries, are you sure?"
+msgstr ""
+
+#: includes/class-wp-p4f-donations-page.php:92
+msgid "Donations Cleared!"
+msgstr ""
+
+#: includes/class-wp-p4f-donations-page.php:152
+msgid "Pay4Fun Donations (Latest 100 transactions)"
+msgstr ""
+
+#: includes/class-wp-p4f-donations-page.php:186
+msgid "CLEAR ENTRIES"
+msgstr ""
+
+#: includes/class-wp-p4f-donations-widget.php:15
+msgid "P4F Donate Button Widget"
+msgstr ""
+
+#: includes/class-wp-p4f-donations-widget.php:18
+msgid "This widget will add a Donate button using Pay4Fun payment method."
+msgstr ""
+
+#: includes/class-wp-p4f-rest-api.php:166
+msgid "There was an error processing p4f confirmation data"
+msgstr ""
+
+#: includes/class-wp-p4f-rest-api.php:291
+msgid "There was an error inserting p4f new transaction data"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:62
+msgid "The OpenSSL PHP extension is not loaded in this environment. Be warned that your credentials will be stored in plain text if not enable. If you don't want this, enable the openssl extension in php.ini"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:70
+msgid "You must provide your donation Merchant ID in order to enable this functionality."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:78
+msgid "You must provide your donation Merchant KEY in order to enable this functionality."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:86
+msgid "You must provide your donation Merchant SECRET in order to enable this functionality."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:94
+msgid "You must provide your donation Merchant Logo in order to enable this functionality."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:102
+msgid "You cannot use the same pay4fun merchant for both donations and woocommerce."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:144
+msgid "Pay4Fun Settings"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:161
+msgid "Clear Logs"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:177
+msgid "Donation Merchant cannot be the same as the WooCommerce Merchant."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:178
+msgid "This will be the log shown in Pay4Fun Checkout Page."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:179
+msgid "This Prefix will be added to the Invoice ID in order to uniquely identify this donation when using multiple sites."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:180
+msgid "This field is to help identify the donation within Pay4Fun system."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:181
+msgid "If enabled, when the user clicks on the donate button the checkout page will be opened in a new browser window."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:182
+msgid "This will enable logging the transactions for debugging purposes"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:183
+msgid "Turn this on if you need to run tests to validate connectivity with pay4fun"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:184
+msgid "This is the Donation Merchant ID provided to you by pay4fun. Do not use other merchant ID here."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:185
+msgid "This is the Donation Merchant Secret provided by pay4fun."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:186
+msgid "This is the Donation Merchant Key provided by pay4fun."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:187
+msgid "This is the page to redirect the users to after a successful transaction with pay4fun."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:188
+msgid "This is the page to redirect the users to when there is an error in the transaction or the user aborted the payment."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:189
+msgid "Select the currency that should be used to donate. All buttons will use the same currency."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:190
+msgid "Select the language to be used in the checkout page."
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:208
+msgid "Pay4Fun Donation API Credentials"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:223
+msgid "Secret"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:231
+msgid "Key"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:239
+msgid "Other Settings"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:246
+msgid "Order Prefix"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:270
+msgid "Currency"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:278
+msgid "Donate Success Return Page"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:286
+msgid "Donate Error Return Page"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:302
+msgid "Redirect to new Page?"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:318
+msgid "Enable Debug?"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:402
+msgid "Please provide you Pay4Fun API credentials"
+msgstr ""
+
+#: includes/class-wp-p4f-settings-page.php:410
+msgid "Remaining Settings to configure Pay4Fun Donations"
+msgstr ""
+
+#: views/html-admin-help-message.php:15
+msgid "Donations Credentials should be set in "
+msgstr ""
+
+#: views/html-admin-help-message.php:16
+msgid "Pay4Fun Donations Settings Page"
+msgstr ""
+
+#: views/html-notice-currency-not-supported.php:16
+msgid "Pay4Fun is Disabled"
+msgstr ""
+
+#. translators: %s: Currency Code
+#: views/html-notice-currency-not-supported.php:16
+msgid "Currency <code>%s</code> is not supported. Works only with Brazilian Real, US Dollar or Euro."
+msgstr ""
+
+#: views/html-notice-id-missing.php:16
+#: views/html-notice-key-missing.php:16
+#: views/html-notice-logo-missing.php:16
+#: views/html-notice-secret-missing.php:16
+msgid "Pay4Fun Disabled"
+msgstr ""
+
+#: views/html-notice-id-missing.php:16
+msgid "You should inform your merchant ID."
+msgstr ""
+
+#: views/html-notice-key-missing.php:16
+msgid "You should inform your merchant key."
+msgstr ""
+
+#: views/html-notice-logo-missing.php:16
+msgid "You should inform your logo."
+msgstr ""
+
+#: views/html-notice-missing-woocommerce.php:23
+msgid "Pay4Fun for WooCommerce"
+msgstr ""
+
+#: views/html-notice-missing-woocommerce.php:23
+msgid "depends on the last version of WooCommerce to work!"
+msgstr ""
+
+#: views/html-notice-missing-woocommerce.php:26
+msgid "Active WooCommerce"
+msgstr ""
+
+#: views/html-notice-missing-woocommerce.php:34
+msgid "Install WooCommerce"
+msgstr ""
+
+#: views/html-notice-same-merchant-donation.php:16
+msgid "Merchant Conflict!"
+msgstr ""
+
+#: views/html-notice-same-merchant-donation.php:16
+msgid "You cannot use the same merchant ID for both Donation and WooCommerce."
+msgstr ""
+
+#: views/html-notice-secret-missing.php:16
+msgid "You should inform your merchant secret."
+msgstr ""
+
+#: views/html-receipt-page-error.php:19
+msgid "Cancel your Order"
+msgstr ""
